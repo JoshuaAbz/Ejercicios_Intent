@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtAnuncioMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtAnuncio_Main"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEstudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtEstudiante"
+        android:textColor="#AD70CD"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtAnuncioMain" />
+
+    <Button
+        android:id="@+id/btnEjercicio1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtAnuncioMain" />
+
+    <Button
+        android:id="@+id/btnEjercicio2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio1" />
+
+    <Button
+        android:id="@+id/btnEjercicio3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio2" />
+
+    <Button
+        android:id="@+id/btnEjercicio4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio3" />
+
+    <Button
+        android:id="@+id/btnEjercicio5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio4" />
+
+    <Button
+        android:id="@+id/btnEjercicio6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio6"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio5" />
+
+    <Button
+        android:id="@+id/btnEjercicio9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio9"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnEjercicio10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio6" />
+
+    <Button
+        android:id="@+id/btnEjercicio10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#21D13F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_Ejercicio10"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEjercicio9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

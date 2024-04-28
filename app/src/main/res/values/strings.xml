@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EjerciciosIntent</string>
+    <!--    Valores de LayoutMain-->
+    <string name="txtEstudiante">Obeth Joshua Aburto López</string>
+    <string name="txtAnuncio_Main">Ejercicios Aplicando Intent</string>
+    <string name="btn_Ejercicio1">Ejercicio 1</string>
+    <string name="btn_Ejercicio2">Ejercicio 2</string>
+    <string name="btn_Ejercicio3">Ejercicio 3</string>
+    <string name="btn_Ejercicio4">Ejercicio 4</string>
+    <string name="btn_Ejercicio5">Ejercicio 5</string>
+    <string name="btn_Ejercicio6">Ejercicio 6</string>
+    <string name="btn_Ejercicio9">Ejercicio 9</string>
+    <string name="btn_Ejercicio10">Ejercicio 10</string>
+    <!--    Fin Valores de LayoutMain-->
+
+    <!--    Valores de LayoutEjercicio1-->
+    <string name="hint_txtEntradaEj1">Ingrese el texto a imprimir</string>
+    <string name="btn_SolucionEj1">Imprimir texto</string>
+    <string name="hint_txtResultadoEj1">Resultado</string>
+    <!--    Fin Valores de LayoutEjercicio1-->
+
+    <!--    Valores de LayoutEjercicio2-->
+    <string name="txt_LoginEj2">Login</string>
+    <string name="btn_LoginEj2">Viajar</string>
+    <string name="txt_BienvenidaEj2">Bienvenido a la aplicación!</string>
+    <!--    Fin Valores de LayoutEjercicio2-->
+
+    <!--    Valores de LayoutEjercicio3-->
+    <string name="hint_txtEntradaEj3">Ingrese su nombre</string>
+    <string name="txt_LoginEj3">Login</string>
+    <string name="btn_LoginEj3">Viajar</string>
+    <!--    Fin Valores de LayoutEjercicio3-->
+
+    <!--    Valores de LayoutEjercicio4-->
+    <string name="hint_txtNumeroEj4">Ingrese el número</string>
+    <string name="txt_AnuncioEj4">Realizar Llamadas</string>
+    <string name="btn_LlamarEj4">Llamar</string>
+    <!--    Fin Valores de LayoutEjercicio4-->
+
+    <!--    Valores de LayoutEjercicio5-->
+    <string name="hint_txtEntradaEj5">Ingrese la URL</string>
+    <string name="txt_AnuncioEj5">Buscador</string>
+    <string name="btn_BuscarEj5">Buscar</string>
+    <!--    Fin Valores de LayoutEjercicio5-->
+
+    <!--    Valores de LayoutEjercicio6-->
+    <string name="txt_AnuncioEj6">Envío de correos</string>
+    <string name="hint_txtEmailEj6">Dirección</string>
+    <string name="hint_txtAsuntoEj6">Asunto</string>
+    <string name="hint_txtContenidoEj6">Contenido</string>
+    <string name="btn_EnviarEj6">Enviar</string>
+    <!--    Fin Valores de LayoutEjercicio6-->
+
+    <!--    Valores de LayoutEjercicio9-->
+    <string name="txt_AnuncioEj9">Abrir configuraciones</string>
+    <string name="btn_AceptarEj9">Aceptar</string>
+    <!--    Fin Valores de LayoutEjercicio9-->
+
+    <!--    Incio Valores de LayoutEjercicio10-->
+    <string name="hint_txtEntradaEj10">Ingrese el ID del video</string>
+    <string name="txt_AnuncioEj10">Buscador de vídeos</string>
+    <string name="btn_AceptarEj10">Aceptar</string>
+    <!--    Fin Valores de LayoutEjercicio10-->
+
+</resources>
